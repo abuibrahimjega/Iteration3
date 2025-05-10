@@ -1,0 +1,122 @@
+/* src/pages/AuthPage.css */
+
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left “hero” panel */
+.auth-hero {
+  flex: 0 0 50%;
+  background-color: #1a1a1a;
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+.auth-logo {
+  max-width: 180px;
+  margin-bottom: 1.5rem;
+}
+.auth-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.auth-description {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  max-width: 320px;
+}
+
+/* Right “form” panel */
+.auth-form {
+  flex: 0 0 50%;
+  max-width: 400px;
+  margin: 0;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #d4af37;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.auth-form input {
+  padding: 0.5rem;
+  background-color: #1a1a1a;
+  border: none;
+  border-bottom: 1px solid #d4af37;
+  font-size: 1rem;
+  color: #d4af37;
+}
+
+.auth-form .btn-primary {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #000;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  margin-top: 0.5rem;
+}
+.auth-form .btn-primary:hover {
+  background-color: #222;
+}
+
+.auth-form p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #d4af37;
+}
+
+.auth-form .btn-toggle {
+  background: none;
+  color: #d4af37;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.auth-form .btn-toggle:hover {
+  color: #ffd54f;
+}
+
+/* Error message */
+.error {
+  margin-top: 1rem;
+  color: #f44336;
+  text-align: center;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .auth-container {
+    flex-direction: column;
+  }
+  .auth-hero {
+    display: none;
+  }
+  .auth-form {
+    margin: 2rem auto;
+  }
+}

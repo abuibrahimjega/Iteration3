@@ -1,0 +1,30 @@
+/* each card: white bg, rounded, shadow, fixed height > width */
+.resource-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 200px; /* taller than a typical card width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+/* hover pop */
+.resource-card:hover {
+  transform: translateY(-4px);
+}
+
+/* style the link inside */
+.resource-card a {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* ensure long titles wrap */
+.resource-card a {
+  word-break: break-word;
+}

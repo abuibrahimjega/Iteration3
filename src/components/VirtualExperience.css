@@ -1,0 +1,32 @@
+.virtual-experience-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.experience-header {
+  padding: 1rem;
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+}
+
+.experience-header h2 {
+  margin: 0 0 0.5rem;
+}
+
+.experience-header p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.experience-canvas {
+  width: 100%;
+  height: 400px;
+  background-color: #f0f0f0;
+}

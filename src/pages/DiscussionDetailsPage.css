@@ -1,0 +1,82 @@
+.discussion-details {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #d4af37;
+}
+
+.post-section h2 {
+  margin-bottom: 0.25rem;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #d5d5d5;
+  margin-bottom: 1rem;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comment-card {
+  background: #222;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.comment-text {
+  margin: 0 0 0.5rem;
+}
+
+.comment-meta {
+  font-size: 0.8rem;
+  color: #d5d5d5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comment-form textarea {
+  resize: vertical;
+  padding: 0.5rem;
+  min-height: 80px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #d4af37;
+  background-color: #222;
+  color: #d4af37;
+}
+
+.comment-form button {
+  align-self: flex-end;
+  padding: 0.4rem 1rem;
+  background-color: #000;
+  color: #d4af37;
+  border: 1px solid#d4af37;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #222;
+}
+
+.comment-delete-btn {
+  background: transparent;
+  border: none;
+  color: #c00;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
